@@ -2,3 +2,7 @@
     margin: 0;
     padding: 0;
 }
+main{
+    background-image: url("./assets/IN-en-20240527-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+    height: 80vh;
+}
