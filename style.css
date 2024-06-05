@@ -6,3 +6,11 @@ main{
     background-image: url("./assets/IN-en-20240527-popsignuptwoweeks-perspective_alpha_website_large.jpg");
     height: 80vh;
 }
+
+main .box{
+    /* border: 2px solid red; */
+    height: 80vh;
+    width: 100%;
+    background-color: black;
+    opacity: 0.44;
+}
