@@ -6,6 +6,9 @@
     background-image: url("./assets/IN-en-20240527-popsignuptwoweeks-perspective_alpha_website_large.jpg");
     height: 80vh;
     position: relative;
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
 }
 
 main .box{
@@ -20,9 +23,12 @@ main .box{
 
 nav{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    /* border: 2px solid red; */
+    max-width: 80vw;
+    border: 2px solid red;
+    margin: auto;
+    height: 62px;
 }
 /* nav span, nav div{
     width: 50%;
@@ -31,5 +37,5 @@ nav{
 
 nav img{
     /* background-color: red; */
-    width: 120px;
+    width: 180px;
 }
