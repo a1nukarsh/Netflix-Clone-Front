@@ -9,16 +9,7 @@
     background-position: center center;
     background-size: max(1200px, 100vw);
     background-repeat: no-repeat;
-}
-
-main .box{
     /* border: 2px solid red; */
-    height: 80vh;
-    width: 100%;
-    background-color: black;
-    opacity: 0.44;
-    position: absolute;
-    top: 0;
 }
 
 nav{
@@ -45,4 +36,25 @@ nav img{
 nav button{
     position: relative;
     z-index: 10;
+}
+
+.box{
+    /* border: 2px solid green; */
+    height: 80vh;
+    width: 100%;
+    background-color: black;
+    opacity: 0.44;
+    position: absolute;
+    top: 0;
+}
+
+.hero{
+    color: white;
+    height: 100%;
+    border: 2px solid green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
 }
