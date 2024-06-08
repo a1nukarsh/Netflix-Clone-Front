@@ -6,9 +6,12 @@
     padding: 0;
     font-family: "Poppins", sans-serif;
 }
+body{
+    background-color: black;
+}
 .main{
     background-image: url("./assets/IN-en-20240527-popsignuptwoweeks-perspective_alpha_website_large.jpg");
-    height: 80vh;
+    height: 70vh;
     position: relative;
     background-position: center center;
     background-size: max(1200px, 100vw);
@@ -44,7 +47,7 @@ nav button{
 
 .box{
     /* border: 2px solid green; */
-    height: 80vh;
+    height: 70vh;
     width: 100%;
     background-color: black;
     opacity: 0.44;
@@ -63,8 +66,20 @@ nav button{
     position: relative;
     font-family: "Martel Sans", sans-serif;
 }
+.hero span{
+    margin: 14px;
+}
 
-.hero :first-child{
+.hero> :nth-child(1){
     font-weight: 500;
     font-size: 48px;
+}
+
+.hero> :nth-child(2){
+    font-weight: 400;
+    font-size: 28px;
+}
+
+.hero> :nth-child(3){
+    font-size:  23px;
 }
