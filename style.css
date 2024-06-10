@@ -18,7 +18,6 @@ body{
     background-repeat: no-repeat;
     /* border: 2px solid red; */
 }
-
 nav{
     display: flex;
     justify-content: space-between;
@@ -32,19 +31,16 @@ nav{
     width: 50%;
     border: 2px solid green;
 } */
-
 nav img{
     /* background-color: red; */
     width: 170px;
     position: relative;
     z-index: 10;
 }
-
 nav button{
     position: relative;
     z-index: 10;
 }
-
 .box{
     /* border: 2px solid green; */
     height: 70vh;
@@ -54,7 +50,6 @@ nav button{
     position: absolute;
     top: 0;
 }
-
 .hero{
     color: white;
     height: calc(100% - 62px);
@@ -70,24 +65,20 @@ nav button{
 .hero span{
     margin: 14px;
 }
-
 .hero> :nth-child(1){
     font-weight: 500;
     font-size: 48px;
     text-align: center;
 }
-
 .hero> :nth-child(2){
     font-weight: 400;
     font-size: 28px;
 text-align: center;
 }
-
 .hero> :nth-child(3){
     font-size:  23px;
     text-align: center;
 }
-
 .separation{
     height: 7px;
     background-color: grey;
