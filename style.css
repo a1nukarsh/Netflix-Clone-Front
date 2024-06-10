@@ -50,14 +50,14 @@ nav button{
     height: 70vh;
     width: 100%;
     background-color: black;
-    opacity: 0.44;
+    opacity: 0.74;
     position: absolute;
     top: 0;
 }
 
 .hero{
     color: white;
-    height: 100%;
+    height: calc(100% - 62px);
     /* border: 2px solid green; */
     display: flex;
     align-items: center;
@@ -65,7 +65,7 @@ nav button{
     flex-direction: column;
     position: relative;
     font-family: "Martel Sans", sans-serif;
-    padding: 30px;
+    padding: 0 30px;
 }
 .hero span{
     margin: 14px;
@@ -86,4 +86,9 @@ text-align: center;
 .hero> :nth-child(3){
     font-size:  23px;
     text-align: center;
+}
+
+.separation{
+    height: 9px;
+    background-color: grey;
 }
