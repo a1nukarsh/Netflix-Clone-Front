@@ -84,20 +84,20 @@ nav button {
   opacity: 0.5;
 }
 
-.hero-buttons{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 16px;
+.hero-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
 }
-.main input{
-    /* background-color: grey; */
+.main input {
+  /* background-color: grey; */
   background-color: rgba(23, 23, 23, 0.7);
-    padding: 7px 101px 8px 14px;
-    font-size: 20px;
-    border-radius: 7px;
-    border: 1px solid gray;
-    color: white;
+  padding: 7px 101px 8px 14px;
+  font-size: 20px;
+  border-radius: 7px;
+  border: 1px solid gray;
+  color: white;
 }
 .btn {
   padding: 8px 10px;
@@ -106,8 +106,8 @@ nav button {
   border-radius: 7px;
   border: 1px solid gray;
   color: white;
-  cursor: pointer ;
-  font-weight: 2  00;
+  cursor: pointer;
+  font-weight: 2 00;
 }
 .btn-red {
   background-color: red;
@@ -119,4 +119,26 @@ nav button {
 .btn-red-sm {
   background-color: red;
   color: white;
+}
+
+.first {
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  max-width: 70vw;
+  margin: auto;
+}
+.secimage {
+  position: relative;
+}
+.secimage img{ 
+  width: 30vw;
+  position: relative;
+  z-index: 10;
+}
+.secimage video{
+    position: absolute;
+    top: 51px;
+    right: 0;
 }
