@@ -152,3 +152,12 @@ nav button {
     top: 51px;
     right: 0;
 }
+
+.faq{
+    color: white;
+}
+.faqbox{
+    display: flex;
+    background-color: gray;
+    padding: 34px;
+}
