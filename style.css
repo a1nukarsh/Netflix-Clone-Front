@@ -128,6 +128,7 @@ nav button {
   align-items: center;
   max-width: 70vw;
   margin: auto;
+  padding: 54px;
 }
 .first div{
     display: flex;
@@ -159,12 +160,36 @@ nav button {
     padding: 34px;
 }
 .faq h2{
+    font-size: 48px;
     text-align: center;
 }
 .faqbox{
     display: flex;
-    background-color: gray;
-    padding: 24px;
-    margin: 25px auto;
-    max-width: 40vw;
+    background-color: rgb(50, 50, 50);
+    padding: 18px;
+    font-size: 24px;
+    margin: 5px auto;
+    max-width: 69vw;
+    justify-content: space-between;
+    cursor: pointer;
 }
+.faqbox:hover{
+    background-color: rgb(34, 34, 34);
+    transition:all 0.2s ease-in;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+    max-width: 69vw;
+    margin: auto;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
+.footer-item{
+    display: flex;
+    flex-direction: column;
+ }
