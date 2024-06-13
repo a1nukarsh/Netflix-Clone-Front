@@ -181,6 +181,10 @@ nav button {
 footer{
     color: white;
 }
+footer span{
+    margin: 2px 30vw;
+    text-align: center;
+}
 .footer{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
