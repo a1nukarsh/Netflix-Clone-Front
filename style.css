@@ -129,6 +129,16 @@ nav button {
   max-width: 70vw;
   margin: auto;
 }
+.first div{
+    display: flex;
+    flex-direction: column;
+}
+.first div>:nth-child(1){
+    font-size: 48px;
+}
+.first div>:nth-child(2){
+    font-size: 24 px;
+}
 .secimage {
   position: relative;
 }
