@@ -155,9 +155,16 @@ nav button {
 
 .faq{
     color: white;
+    background-color: black ;
+    padding: 34px;
+}
+.faq h2{
+    text-align: center;
 }
 .faqbox{
     display: flex;
     background-color: gray;
-    padding: 34px;
+    padding: 24px;
+    margin: 25px auto;
+    max-width: 40vw;
 }
