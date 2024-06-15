@@ -180,17 +180,18 @@ nav button {
 
 footer{
     color: white;
+    max-width: 69vw;
+    margin: auto;
 }
 footer span{
     margin: 2px 30vw;
     text-align: center; 
+    padding: 34px;
 }
 .footer{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     color: white;
-    max-width: 69vw;
-    margin: auto;
 }
 footer a{
     color: white;
