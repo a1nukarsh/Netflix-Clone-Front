@@ -134,97 +134,163 @@ nav button {
   padding: 54px;
   /* flex-wrap: wrap; */
 }
-.first div{
-    display: flex;
-    flex-direction: column;
-    padding: 34px 0;
+.first div {
+  display: flex;
+  flex-direction: column;
+  padding: 34px 0;
 }
-.first div>:nth-child(1){
-    font-size: 48px;
+.first div > :nth-child(1) {
+  font-size: 48px;
 }
-.first div>:nth-child(2){
-    font-size: 24 px;
+.first div > :nth-child(2) {
+  font-size: 24 px;
 }
 .secimage {
   position: relative;
 }
-.secimage img{ 
+.secimage img {
   width: 555px;
   position: relative;
   z-index: 10;
 }
-.secimage video{
-    position: absolute;
-    top: 75px;
-    right: 60px;
-    width: 420px;
+.secimage video {
+  position: absolute;
+  top: 75px;
+  right: 60px;
+  width: 420px;
 }
-.secimagethird video{
-    position: absolute;
-    top: 72px;
-    right: 120px;
-    width: 333px;
+.secimagethird video {
+  position: absolute;
+  top: 72px;
+  right: 120px;
+  width: 333px;
 }
 
-.faq{
-    color: white;
-    background-color: black ;
-    padding: 34px;
+.faq {
+  color: white;
+  background-color: black;
+  padding: 34px;
 }
-.faq h2{
-    font-size: 48px;
+.faq h2 {
+  font-size: 48px;
+  text-align: center;
+}
+.faqbox {
+  display: flex;
+  background-color: rgb(50, 50, 50);
+  padding: 18px;
+  font-size: 24px;
+  margin: 5px auto;
+  max-width: 69vw;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.faqbox:hover {
+  background-color: rgb(34, 34, 34);
+  transition: all 0.2s ease-in;
+}
+
+footer {
+  color: white;
+  max-width: 69vw;
+  margin: auto;
+  padding: 34px;
+}
+.questions {
+  /* margin: 2px 30vw; */
+  /* text-align: center;  */
+  padding: 34px 0px;
+}
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  color: white;
+}
+.footer-grid a {
+  color: white;
+  font-size: 14px;
+  /* text-decoration: none; */
+}
+.footer-item {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+@media screen and (max-width: 900px) {
+  nav img {
+    width: 110px;
+  }
+  .hero > :nth-child(1) {
+    /* font-weight: 500; */
+    font-size: 32px;
+    /* text-align: center; */
+  }
+  .hero > :nth-child(2) {
+    font-weight: 400;
+    font-size: 18px;
     text-align: center;
-}
-.faqbox{
-    display: flex;
-    background-color: rgb(50, 50, 50);
-    padding: 18px;
-    font-size: 24px;
-    margin: 5px auto;
-    max-width: 69vw;
-    justify-content: space-between;
-    cursor: pointer;
-}
-.faqbox:hover{
-    background-color: rgb(34, 34, 34);
-    transition:all 0.2s ease-in;
-}
-
-footer{
-    color: white;
-    max-width: 69vw;
-    margin: auto;
-    padding: 34px;
-}
-.questions{
-    /* margin: 2px 30vw; */
-    /* text-align: center;  */
-    padding: 34px 0px;
-}
-.footer-grid{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    color: white;
-}
-.footer-grid a{
-    color: white;
+  }
+  .hero > :nth-child(3) {
     font-size: 14px;
-    /* text-decoration: none; */
+    text-align: center;
+  }
+  .main input {
+    /* background-color: grey; */
+    /* background-color: rgba(23, 23, 23, 0.7);
+    padding: 7px 101px 8px 14px; */
+    font-size: 12px;
+    /* border-radius: 7px;
+    border: 1px solid gray;
+    color: white; */
+  }
+  .btn {
+    padding: 6px 8px;
+    /* font-weight: bold; */
+    /* background-color: rgba(23, 23, 23, 0.7);
+    border-radius: 7px;
+    border: 1px solid gray;
+    color: white;
+    cursor: pointer; */
+    font-weight: 200;
+  }
+  .btn-red {
+    /* background-color: red;
+    color: white; */
+    padding: 2px 9px;
+    font-size: 15px;
+    /* border-radius: 7px; */
+  }
+  .first div > :nth-child(1) {
+    font-size: 32px;
+  }
+  .first div > :nth-child(2) {
+    font-size: 16 px;
+  }
+  .first {
+    flex-wrap: wrap;
+  }
+  .footer-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: white;
+  }
+  .secimage img {
+    width: 400px;
+    position: relative;
+    z-index: 10;
+  }
+  .secimage video {
+    position: absolute;
+    top: 95px;
+    right: 60px;
+    width: 290px;
+  }
+  .secimagethird video {
+    position: absolute;
+    top: 63px;
+    right: 72px;
+    width: 250px;
+  }
+  
 }
-.footer-item{
-    display: flex;
-    flex-direction: column;
-    gap: 14px;
- }
-
-
- @media screen and (max-width: 900px){
-        .first{
-            flex-wrap: wrap;
-        }
-        .footer-grid{
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            color: white;
-        }
- }
