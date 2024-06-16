@@ -25,6 +25,7 @@ nav {
   /* border: 2px solid red; */
   margin: auto;
   height: 62px;
+  padding-top: 9px;
 }
 /* nav span, nav div{
     width: 50%;
@@ -32,7 +33,7 @@ nav {
 } */
 nav img {
   /* background-color: red; */
-  width: 170px;
+  width: 130px;
   position: relative;
   z-index: 10;
 }
@@ -82,6 +83,8 @@ nav button {
   height: 7px;
   background-color: grey;
   opacity: 0.5;
+  z-index: 20;
+  position: relative;
 }
 
 .hero-buttons {
@@ -182,24 +185,25 @@ footer{
     color: white;
     max-width: 69vw;
     margin: auto;
-}
-footer span{
-    margin: 2px 30vw;
-    text-align: center; 
     padding: 34px;
 }
-.footer{
+.questions{
+    /* margin: 2px 30vw; */
+    /* text-align: center;  */
+    padding: 34px 0px;
+}
+.footer-grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     color: white;
 }
-footer a{
+.footer-grid a{
     color: white;
     font-size: 14px;
-    text-decoration: none;
+    /* text-decoration: none; */
 }
 .footer-item{
     display: flex;
     flex-direction: column;
-    gap: 23px;
+    gap: 14px;
  }
